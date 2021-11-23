@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "label": "Pack Cash",
+      "type": "textfield",
+      "id": "Field_1eqbiy4",
+      "key": "money",
+      "description": "How much cash do you wants to bring?",
+      "validate": {
+        "regularExpressionPattern": "^?[0-9][0-9,\\.]+$"
+      }
+    },
+    {
+      "label": "Where are you headed?",
+      "type": "textfield",
+      "id": "Field_0r055p9",
+      "key": "country",
+      "description": "Country are you going to",
+      "validate": {
+        "required": true,
+        "regularExpressionPattern": "America|France"
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_1cfzzt5"
+}
